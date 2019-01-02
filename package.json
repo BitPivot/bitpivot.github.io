@@ -1,5 +1,5 @@
 {
-  "name": "BitPivot Website",
+  "name": "bitpivot.github.io",
   "private": true,
   "description": "The BitPivot public-facing website",
   "version": "0.1.0",
@@ -16,7 +16,9 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.1.3",
+    "styled-reset": "^1.6.4"
   },
   "keywords": [
     "bitpivot"
@@ -31,6 +33,9 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-preset-gatsby": "^0.1.6",
     "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   },
